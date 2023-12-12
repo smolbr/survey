@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title> Fake Form </title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  
+    <body>
+      <h1 id="title">Survey Form</h1>
+      <p id="description"> Thank you for taking your time to answer our survey and improve it for you. </p>
+
+      <form id="survey-form">
+        
+      <fieldset>
+        <label id="name-label"> Input your name
+          <input id="name" type="text" placeholder="Name" required/>
+        </label>
+ 
+        <label id="email-label"> Input your email
+          <input id="email" type="email" placeholder="email" required/>
+        </label>
+ 
+        <label id="number-label"> Input your age
+        <input id="number" type="number" min="13" max="120" placeholder="Age" required/>
+        </label>
+
+        <label id="dropdown-label"> Employment Status
+          <select id="dropdown">
+            <option value="">(choose one)</option>
+            <option value="1">Employed</option>
+            <option value="2">Self-Employed/Freelancer</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>What type of projects do you do?</legend>
+          <label>
+          <input id="radio" type="radio" class="inline" name="project" value="Personal radio" checked /> Personal
+          </label>
+
+          <label>
+          <input id="radio" type="radio" class="inline" name="project" value="Work radio"/> Work
+          </label>
+
+          <label>
+          <input id="radio" type="radio" class="inline" name="project" value="Business radio"/> Business
+          </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>What's your expertise?</legend>
+          <label id="check-label">
+            <input id="check" type="checkbox" class="inline" value="front end"/> Front End
+          </label>
+
+                    <label id="check-label">
+            <input id="check" type="checkbox" class="inline" value="back end"/> Back End
+          </label>
+
+                    <label id="check-label">
+            <input id="check" type="checkbox" class="inline" value="data structure"/> Data Structure
+          </label>
+
+                    <label id="check-label">
+            <input id="check" type="checkbox" class="inline" value="machine learning"/> Machine Learning
+          </label>
+      </fieldset>
+      
+      <fieldset>
+          <label id="comment-label"> Do you have comments?
+            <textarea> Enter your comment here...
+            </textarea>
+          </label>
+      </fieldset>
+
+      <button id="submit">Submit</button
+    </form>
+  </body>
+</html>
