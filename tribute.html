@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        main{
+  width: 100%;
+}
+.head{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 50px;
+  background-color: #dfdfe2;
+}
+h1, h2, p{
+  font-family: arial, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.head h1{
+  font-size: 3rem;
+}
+.head p{
+  font-style: italic;
+}
+#image{
+  width: 85%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+figcaption{
+  font-family: arial, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+#tribute-info{
+  width: 100%;
+  margin: 50px auto;
+  background-color: #dfdfe2;
+}
+
+#tribute-info li, legend{
+  font-family: arial, sans-serif;
+  font-size: 20px;
+}
+#tribute-info legend{
+  margin-top: 65px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+#tribute-info li{
+  list-style: none;
+}
+.last{
+  padding-bottom: 60px;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: #87ceeb;
+}
+a:active{
+  color: #0000ff;
+}
+    </style>
+  </head>
+  <body>
+    <main id="main">
+      <div class="head">
+        <h1 id="title">Fe del Mundo</h1>
+        <p>The first pediatrician in the Philippines.</p>
+      </div>
+      <div id="img-div">
+        <img src="https://www.flipscience.ph/wp-content/uploads/2018/11/FS-Cover-1024x536.jpg" id="image" alt="Fe del Mundo">
+        <figcaption id="img-caption">Fe Villanueva del Mundo</figcaption>
+      </div>
+      <div id="tribute-info">
+        <h2>This is her life and achievements</h2>
+        <ul>
+          <legend>1911</legend>
+          <li>She was born in November 27 at Intramuros, Manila.</li>
+          <legend>1933</legend>
+          <li>She earned her medical degree at University of the Philippines.</li>
+          <legend>1939</legend>
+          <li>She went in Harvard Medical School's Children's Hospital for a two year research fellowship</li>
+          <legend>1941</legend>
+          <li>She returned to the Philippines, joined the International Red Cross and volunteered to care for child-internees.</li>
+          <legend>1957</legend>
+          <li>She established the Children's Medical Center, the first pediatric hospital in the Philippines</li>
+          <legend>1957 onward</legend>
+          <li class="last">She continued to provide medical care for Filipinos, especially children, in rural areas until her death in 2011.</li>
+          </ul>
+                <h2>Want to know more about Fe del Mundo? Visit her <a href="https://en.wikipedia.org/wiki/Fe_del_Mundo" id="tribute-link" target="_blank">Wikipedia Page</a></h2>
+      </div>
+    </main>
+  </body>
+</html>
